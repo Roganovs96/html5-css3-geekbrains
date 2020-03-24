@@ -380,16 +380,10 @@ header {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.buy-block-pack .button button:active,
-.buy-block-pack .button button:focus {
-  outline: none;
-}
-.buy-block-pack .button button::-moz-focus-inner {
-  border: 0;
-}
 .buy-block-pack .button button:active {
   opacity: 0.5;
 }
 .buy-block-pack .button button:hover {
+  background-color: #445161 !important;
   opacity: 0.5;
 }
