@@ -324,6 +324,7 @@ header {
   padding: 15px 15px;
   background-color: #ebebeb;
   position: relative;
+  border-radius: 5px;
 }
 
 .reviews-block-p:before {
@@ -349,7 +350,8 @@ header {
   letter-spacing: normal;
   text-align: left;
   color: #989898;
-
+margin-top: 5px;
+display: block;
 }
 
 .buy {
@@ -445,15 +447,283 @@ header {
       color: #445161;
       text-transform: uppercase;
       margin-bottom: 20px;
+      border-radius: 5px;
 
     }
-    
-    button:active{
-      opacity: 0.5;
+
+    button:active {
+
+      background-color: #445162;
+      color: white;
+      outline: none;
     }
-    button:hover{
-      background-color: #989898 !important;
-      opacity: 0.5;
+
+    button:focus {
+      outline: none;
+    }
+
+    button:hover {
+      outline: white 2px solid;
+
     }
   }
+}
+
+/*footer {
+  
+}*/
+.contact{
+  background-color: #445161;
+  padding: 50px;
+}
+
+.contacts {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-h2 {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: white;
+}
+
+.contacts-form {
+  width: 500px;
+}
+
+.contacts-input-text {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  padding: 0 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #445162;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+.contacts-input-email {
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  padding: 0 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #445162;
+  margin-bottom: 20px;
+}
+
+
+.contacts-textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  padding: 8px 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #445162;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+
+}
+
+.contacts-submit {
+  display: block;
+  width: 140px;
+  
+  min-height: 35px;
+  margin: 0 auto 0;
+  padding: 0;
+  color: #445161;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #445161;
+  text-transform: uppercase;
+  
+  border-radius: 5px;
+
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.contacts-list {
+  width: 250px;
+
+  span {
+    display: block;
+    margin: 0 0 25px 75px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+
+  }
+
+  .skype:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 27px;
+    background-image: url(../img/skype-icon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+  }
+
+  .icq:before {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url(../img/icq-icon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+  }
+
+  .mail:before {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url(../img/email-icon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+  }
+
+  .tel:before {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-image: url(../img/phone-icon.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: -30px;
+  }
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?31919061');
+  src: url('../font/fontello.eot?31919061#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff?31919061') format('woff'),
+    url('../font/fontello.ttf?31919061') format('truetype'),
+    url('../font/fontello.svg?31919061#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.link-logo {
+  display: flex;
+  margin: 35px 0 0 40px;
+
+  a {
+    span {
+      display: block;
+      width: 40px;
+      min-height: 40px;
+      border-radius: 50%;
+      background-color: white;
+      color: #445161;
+      margin: 0 5px 0 0;
+    }
+
+  }
+}
+
+.icon-twitter:before {
+  content: '\f099';
+  margin: 12px 12px;
+}
+
+.icon-facebook:before {
+
+  margin: 12px 12px;
+}
+
+.icon-linkedin:before {
+
+  margin: 12px 12px;
+}
+
+.icon-google:before {
+
+  margin: 12px 12px;
+}
+
+.icon-youtube:before {
+
+  margin: 12px 12px;
+}
+
+.copyright-text{
+  display: block;
+  font-size: 12px;
+    line-height: 2;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #445162;
+  padding: 10px auto 5px;
 }
