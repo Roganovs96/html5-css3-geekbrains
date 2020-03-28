@@ -106,8 +106,7 @@ header {
   color: #333333;
   margin: 0 0 20px 0;
 }
-.about-product-img {
-  background-color: #445161;
+.about-product-video {
   float: right;
 }
 .dignity {
@@ -115,7 +114,7 @@ header {
   background-color: #f5f5f5;
 }
 .dignity-h2 {
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -143,7 +142,7 @@ header {
   letter-spacing: normal;
   text-align: left;
   color: #333333;
-  margin: 0 0 35px 0;
+  margin: 35px 0 0 0;
   position: relative;
 }
 .dignity-block-list-item:nth-child(odd) {
@@ -165,7 +164,7 @@ header {
   padding: 50px;
 }
 .screenshots-h2 {
-  margin: 0 0 30px 0;
+  margin: 0 0 0 0;
   font-size: 30px;
   font-weight: normal;
   font-stretch: normal;
@@ -183,11 +182,12 @@ header {
 .screenshots-block-figure img {
   background-color: #445161;
   float: left;
+  margin-right: 10px;
 }
 .screenshots-block-figure {
   margin: 0;
   width: 50%;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .screenshots-block-figure img:after {
   content: "";
@@ -207,7 +207,6 @@ header {
   text-align: left;
   color: #445161;
   float: left;
-  margin-left: 10px;
 }
 .screenshots-block-figcaption-p {
   margin: 0 0 0 0;
@@ -221,14 +220,13 @@ header {
   color: #333333;
   float: left;
   width: 370px;
-  margin-left: 10px;
 }
 .reviews {
   background-color: #f5f5f5;
   padding: 50px;
 }
 .reviews-h2 {
-  margin: 0 0 35px 0;
+  margin: 0 0 0 0;
   text-align: center;
   font-size: 30px;
   font-weight: normal;
@@ -250,7 +248,7 @@ header {
   flex-wrap: wrap;
 }
 .reviews-block-article {
-  margin: 0 21px 24px 0;
+  margin: 30px 21px 0 0;
 }
 .reviews-block-circle {
   float: left;
@@ -323,10 +321,13 @@ header {
   background-color: #445161;
   border-radius: 10px;
   border: #445161 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .buy-block-pack h3 {
-  margin: 0 0 16px 0;
-  padding: 16px 0 0 0;
+  margin: 0 0 15px 0;
+  padding: 15px 0 0 0;
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;
@@ -336,7 +337,8 @@ header {
   text-align: center;
   color: #ffffff;
 }
-.buy-block-pack p {
+.buy-block-pack span {
+  display: block;
   margin: 0;
   font-size: 40px;
   font-weight: normal;
@@ -345,13 +347,13 @@ header {
   line-height: 71px;
   letter-spacing: normal;
   text-align: center;
-  vertical-align: middle;
   color: #445162;
   background-color: white;
   width: 100%;
   min-height: 71px;
 }
 .buy-block-pack ol {
+  display: block;
   color: white;
   font-size: 14px;
   font-weight: normal;
@@ -361,13 +363,9 @@ header {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  padding: 0;
 }
 .buy-block-pack .button {
-  width: 260px;
-  min-height: 40px;
-  margin: 0 auto;
-}
-.buy-block-pack .button button {
   width: 260px;
   min-height: 40px;
   margin: 0;
@@ -381,18 +379,18 @@ header {
   text-align: center;
   color: #445161;
   text-transform: uppercase;
-  margin-bottom: 20px;
   border-radius: 5px;
+  margin: 0 0 20px 0;
 }
-.buy-block-pack .button button:active {
+.buy-block-pack button:active {
   background-color: #445162;
   color: white;
   outline: none;
 }
-.buy-block-pack .button button:focus {
+.buy-block-pack button:focus {
   outline: none;
 }
-.buy-block-pack .button button:hover {
+.buy-block-pack button:hover {
   outline: white 2px solid;
 }
 /*footer {
@@ -490,6 +488,9 @@ header {
   color: #445161;
   text-transform: uppercase;
   border-radius: 5px;
+}
+.contacts-submit:hover {
+  outline: white 2px solid;
 }
 input:focus,
 textarea:focus {
