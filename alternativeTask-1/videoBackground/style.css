@@ -1,47 +1,49 @@
-/*.padding-site {
-    width: 1280px;
-    min-height: 500px;
-    margin: 0 auto;
-}
-
 .menu-list {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    align-items: center;
+    align-items: flex-start;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
-*/
+
+body {
+    margin: 0;
+    min-width: 100%;
+}
+
 .fullscreen-bg {
     overflow: hidden;
     z-index: -100;
     position: relative;
     height: 100%;
     width: 100%;
-    padding-top:45%;
+    padding-top: 45%;
 }
- 
+
 .fullscreen-bg__video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 .overlay {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     z-index: 4;
 }
+
 .overlay .menu {
-    text-align:center;
-    color:#fff;
+    text-align: center;
+    color: #fff;
     font-size: 70px;
-    margin-top:17%;
+    margin-top: 17%;
 }
