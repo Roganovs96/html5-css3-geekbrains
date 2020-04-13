@@ -1,0 +1,66 @@
+.coffee {
+    background-image: linear-gradient(to right, #211b19, #4e3427);
+    display: flex;
+    justify-content: center;
+
+
+
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 135px;
+        padding: 70px 0;
+        margin-right: 75px;
+
+        &:after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 2px;
+            background-color: #f1eee9;
+            margin: 30px auto 0;
+            align-self: flex-end;
+        }
+
+        &-svg {
+            fill: #c7b299;
+
+        }
+
+        &-amount {
+            font-family: Montserrat-light;
+            font-size: 48px;
+            font-weight: 200;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.75;
+            letter-spacing: normal;
+            text-align: center;
+            color: white;
+            margin: 30px 0 20px 0;
+
+        }
+
+        &-span {
+            font-family: Montserrat;
+            font-size: 14px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.43;
+            letter-spacing: normal;
+            text-align: center;
+            color: #c7b299;
+
+        }
+
+        &-item:last-child {
+            margin: 0;
+        }
+
+
+    }
+
+}
