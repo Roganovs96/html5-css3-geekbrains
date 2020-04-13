@@ -1,0 +1,83 @@
+.excellent {
+  display: flex;
+  justify-content: center;
+}
+.excellent-img {
+  background-image: url(../img/iPhone-in-hand.jpg);
+  width: 423px;
+  height: 616px;
+  margin: 80px 30px 0 0;
+}
+.excellent-txt {
+  width: 657px;
+  margin: 195px 0 0 0;
+  min-height: 99px;
+}
+.excellent-txt-h3 {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #555555;
+  margin: 0 0 40px 0;
+}
+.excellent-txt-p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+  margin: 0 0 45px 0;
+}
+.excellent-txt-edge-wrp {
+  margin-left: 80px;
+  outline: none;
+}
+.excellent-txt-edge-wrp :focus {
+  outline: none;
+}
+.excellent-txt-edge-wrp-item {
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c8c8c;
+}
+.excellent-txt-edge-wrp-item summary {
+  position: relative;
+}
+.excellent-txt-edge-wrp-item summary::-webkit-details-marker {
+  display: none;
+}
+.excellent-txt-edge-wrp-item summary:before {
+  content: "";
+  display: block;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  background-image: url(../img/arrow.png);
+  background-size: cover;
+  position: absolute;
+  top: 2px;
+  left: -40px;
+}
+.excellent-txt-edge-wrp-item p {
+  margin: 0;
+  font-size: 14px;
+}
+details[open] summary:before {
+  transform: rotate(0.25turn);
+}
