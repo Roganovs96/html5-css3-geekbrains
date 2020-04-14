@@ -1,0 +1,332 @@
+footer {
+    .footer-main {
+        background-color: #191919;
+        display: flex;
+        justify-content: center;
+        padding: 80px 0 80px 0;
+
+        &-waxom {
+            display: flex;
+            flex-direction: column;
+            width: 270px;
+            margin-right: 40px;
+
+
+            &-logo {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                font-family: Raleway-light;
+                font-size: 34px;
+                color: #ffffff;
+
+                &:hover {
+                    svg {
+                        fill: #c7b299
+                    }
+
+                    span {
+                        color: #c7b299
+                    }
+
+                    &:active {
+                        opacity: 0.5;
+                    }
+                }
+
+                svg {
+                    fill: white;
+                }
+
+                span {
+                    font-family: Raleway-light;
+                    font-size: 34px;
+                    color: #ffffff;
+
+
+                }
+            }
+
+            &-p {
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.71;
+                letter-spacing: normal;
+                text-align: left;
+                color: #555555;
+                margin: 30px 0 30px 0;
+            }
+
+            &-a {
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.71;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fff;
+                text-decoration: none;
+                margin: 0 0 0 0;
+
+                &:hover {
+                    color: #00bff3;
+                }
+            }
+        }
+
+        &-posts {
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+
+            &-h4 {
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                margin: 20px 0 33px 0;
+            }
+
+            &-first {
+                text-decoration: none;
+
+                &:hover {
+                    span {
+                        color: white;
+                    }
+
+                    p {
+                        color: #c7b299;
+                    }
+                }
+
+                &-span {
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.67;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #363636;
+
+                }
+
+                &-p {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.43;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #555555;
+                    margin: 10px 0 30px 0;
+                }
+            }
+
+        }
+
+        &-twitter {
+            width: 270px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+
+            &-h4 {
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                margin: 20px 0 33px 0;
+            }
+
+            &-first {
+                text-decoration: none;
+
+                &:hover {
+                    span {
+                        color: white;
+                    }
+
+                    p {
+                        color: #c7b299;
+                    }
+                }
+
+                &-span {
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.67;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #363636;
+                    margin: 0 0 30px 0;
+                    display: block;
+
+                }
+
+                &-p {
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.43;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #555555;
+                    margin: 0 0 10px 0;
+                }
+            }
+
+            .blue-link {
+                color: #00bff3;
+
+            }
+
+        }
+
+        &-widget {
+            display: flex;
+            flex-direction: column;
+            width: 270px;
+
+            &-h4 {
+                font-family: Raleway;
+                font-size: 24px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ffffff;
+                margin: 20px 0 33px 0;
+            }
+
+            &-pictures {
+                display: flex;
+                flex-wrap: wrap;
+
+                img {
+                    transition: ease-in-out 500ms;
+
+                    &:hover {
+                        transform: scale(1.2);
+
+                    }
+                }
+
+                &-1 {
+                    margin: 0 10px 10px 0;
+                }
+
+                &-3 {
+                    margin: 0 10px 0 0;
+
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: #111111;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.54;
+        letter-spacing: normal;
+        text-align: left;
+        color: #555555;
+        display: flex;
+        justify-content: center;
+
+        &-left {
+            width: 400px;
+            padding: 45px 0 52px 0;
+            display: flex;
+            justify-content: space-between;
+            margin-right:450px;
+
+            &-link {
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 13px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.54;
+                letter-spacing: normal;
+                text-align: left;
+                color: #555555;
+                display: flex;
+                justify-content: center;
+
+                &:hover {
+                    color: #c7b299
+                }
+            }
+
+
+            &-link-waxom {
+                color: whitesmoke;
+                text-decoration: none;
+            }
+
+            &-link-waxom:hover {
+                color: #c7b299;
+            }
+
+        }
+
+        &-right {
+            width: 320px;
+            padding: 45px 0 52px 0;
+            display: flex;
+            justify-content: space-between;
+
+            &-link {
+                text-decoration: none;
+                font-family: Montserrat;
+                font-size: 13px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.54;
+                letter-spacing: normal;
+                text-align: left;
+                color: #555555;
+                display: flex;
+                justify-content: center;
+
+                &:hover {
+                    color: #c7b299
+                }
+            }
+        }
+    }
+}

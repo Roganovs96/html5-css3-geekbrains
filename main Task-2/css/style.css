@@ -9,6 +9,7 @@
 @import url(recent.css);
 @import url(coffee.css);
 @import url(partners.css);
+@import url(footer.css);
 body {
   width: 1920px;
   margin: 0 auto;
