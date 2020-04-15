@@ -59,6 +59,7 @@ footer .footer-main-waxom-a {
   color: #fff;
   text-decoration: none;
   margin: 0 0 0 0;
+  position: relative;
 }
 footer .footer-main-waxom-a:hover {
   color: #00bff3;

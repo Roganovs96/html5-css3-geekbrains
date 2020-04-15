@@ -120,6 +120,20 @@
   text-align: left;
   color: #c7b299;
   margin: 0 0 33px 30px;
+  text-decoration: none;
+  position: relative;
+}
+.recent-article-block-txt-a:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 8px;
+  margin: 0 auto;
+  align-self: flex-end;
+  background-image: url(../img/low-arrow-readme.png);
+  position: absolute;
+  top: 7px;
+  right: 250px;
 }
 .recent-article :hover .recent-article-block-img-date-up {
   background-color: #c7b299;
