@@ -173,3 +173,6 @@
 .recent-arrows-btn :hover {
   fill: #c7b299;
 }
+.recent-arrows-btn :active {
+  transform: scale(1.2);
+}
