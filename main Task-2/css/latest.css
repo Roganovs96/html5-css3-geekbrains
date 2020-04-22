@@ -26,10 +26,11 @@
   letter-spacing: normal;
   text-align: center;
   color: #8c8c8c;
-  width: 757px;
+  max-width: 757px;
 }
 .latest-mini-buttons {
   display: flex;
+  flex-wrap: wrap;
   margin: 40px 0 0 0;
 }
 .latest-mini-buttons-button {
@@ -65,7 +66,7 @@
   margin-right: 0;
 }
 .latest-examples {
-  width: 1170px;
+  max-width: 1170px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

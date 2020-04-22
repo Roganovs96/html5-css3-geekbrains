@@ -4,8 +4,8 @@
 }
 .excellent-img {
   background-image: url(../img/iPhone-in-hand.jpg);
-  width: 423px;
-  height: 616px;
+  max-width: 423px;
+  max-height: 616px;
   margin: 80px 30px 0 0;
 }
 .excellent-txt {
