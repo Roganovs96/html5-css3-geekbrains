@@ -24,14 +24,14 @@ body {
     .main-header {
         padding: 20px;
         display: flex;
-
+        min-height: auto;
         justify-content: flex-start;
         align-items: center;
 
         &-top {
             padding: 0;
+            align-self: flex-start;
 
-            
 
             &-nav {
                 display: none;
@@ -66,7 +66,7 @@ body {
 
                 &-class {
                     position: absolute;
-                    top: 50px;
+                    top: 38px;
                     right: 30px;
                     width: 26px;
                     height: 26px;
@@ -84,6 +84,7 @@ body {
                     height: 2px;
                     background-color: #fff;
                     transition-duration: .3s;
+
 
                     &::after {
                         content: '';
@@ -144,6 +145,25 @@ body {
         height: auto;
         display: flex;
     }
+
+    input[type="checkbox"]:checked~.main-header-mobile-menu-class > span{
+        
+        visibility: hidden;
+        
+        &::before{
+            visibility: visible;
+            transform: rotate(45deg);
+            top:-7px;
+        }
+        &:after{
+            visibility: visible;
+            transform: rotate(-45deg);
+        }
+       
+
+    }
+
+    
 
     .services {
         padding: 20px 20px;
@@ -219,13 +239,14 @@ body {
         }
 
         &-img {
-            margin: 0;
+            margin: 20px 0 0 0;
             width: 30%;
             height: 192px;
             background-image: url(../img/iPhone-in-hand.jpg);
             background-size: contain;
             background-repeat: no-repeat;
             align-self: flex-end;
+            order: 3;
         }
 
         &-txt-edge-wrp {

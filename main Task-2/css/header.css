@@ -1,6 +1,7 @@
 .main-header {
   background-color: #555556;
   background-image: url(../img/photo.png);
+  min-height: 1024px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
