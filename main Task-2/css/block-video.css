@@ -3,6 +3,10 @@
   height: 705px;
   position: relative;
 }
+.block-video-background {
+  width: 100%;
+  height: 100%;
+}
 .block-video-txt {
   width: 50%;
   height: 50%;

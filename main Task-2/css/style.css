@@ -11,12 +11,11 @@
 @import url(partners.css);
 @import url(footer.css);
 body {
-  width: 1920px;
   margin: 0 auto;
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   body {
-    width: 480px;
+    width: 576px;
   }
   .main-header {
     padding: 20px;
