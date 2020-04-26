@@ -15,7 +15,10 @@ body {
 }
 @media (max-width: 576px) {
   body {
-    width: 576px;
+    max-width: 576px;
+    min-width: 370px;
+    width: 100%;
+    overflow-x: hidden;
   }
   .main-header {
     padding: 20px;
