@@ -27,12 +27,14 @@ body {
         min-height: auto;
         justify-content: flex-start;
         align-items: center;
+        background: url(../img/photo.png) 50% 50% no-repeat;
 
         &-top {
             padding: 0;
             align-self: flex-start;
             flex-direction: column;
             width: 100%;
+            position: relative;
 
             &-logo{
                 align-self:flex-start;
@@ -84,6 +86,7 @@ body {
 
         &-mobile {
             display: block;
+            
 
             #main-header-mobile-menu {
                 display: none;
@@ -92,9 +95,9 @@ body {
             &-menu {
 
                 &-class {
-                    position: fixed;
-                    top: 38px;
-                    right: 30px;
+                    position: absolute;
+                    top: 20px;
+                    right: 33px;
                     width: 26px;
                     height: 26px;
                     cursor: pointer;
