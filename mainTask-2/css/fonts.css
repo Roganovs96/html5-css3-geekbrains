@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Raleway', 'verdana', sans-serif;
+  src: url(../fonts/Raleway/Raleway-Medium.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway-light', 'verdana', sans-serif;
+  src: url(../fonts/Raleway/Raleway-Light.ttf);
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat', 'verdana', sans-serif;
+  src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
